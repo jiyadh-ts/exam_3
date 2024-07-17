@@ -48,7 +48,7 @@ class Login extends StatelessWidget {
                   if (value == null ||
                       !RegExp(r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
                           .hasMatch(value)) {
-                    return "Enter a valid Email";
+                    return " Enter a valid Email";
                   }
                   return null;
                 },
